@@ -1,0 +1,21 @@
+
+body{background: black; background-color: black; color: white; margin: 0; font-family: 'Inter', sans-serif;}
+
+.container{margin: 20px 50px;}
+
+.container form .user-name { display: flex; flex-wrap: wrap; gap: 10px;}
+
+form .user-name .user-data { margin-bottom: 15px; width: calc(100% / 3 - 10%);}
+
+.user-name .user-data .info { display: block; font-weight: 500; margin-bottom: 8px;}
+
+.user-name .user-data input { height: 35px; width: 100%; outline: none; border-radius: 5px; border: 1px solid lightgray; color: lightgrey; background-color: black; padding-left: 15px;
+font-size: 16px;}
+
+button { font-weight: bold; height: 35px; width: 100px; margin: 40px 40px 40px 0px; margin-top: 30px; cursor: pointer;}
+
+.error { color: red; display: none; margin-bottom: 10px;}
+
+.success { color: green; display: none; margin-bottom: 10px;}
+
+#added-employees { color: rgb(102, 100, 96);}
