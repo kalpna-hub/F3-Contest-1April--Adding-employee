@@ -29,7 +29,7 @@ function addEmployees(e) {
       }
       employees.push(obj);
 
-      message.innerText = "Sucess : Employee Added !";
+      message.innerText = "Success : Employee Added !";
       message.style.color = "green";
       message.style.fontSize = "20px";
       message.style.marginBottom = "15px";
