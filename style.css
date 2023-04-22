@@ -1,21 +1,25 @@
 
 body{background: black; background-color: black; color: white; margin: 0; font-family: 'Inter', sans-serif;}
-
-.container{margin: 20px 50px;}
-
-.container form .user-name { display: flex; flex-wrap: wrap; gap: 10px;}
-
-form .user-name .user-data { margin-bottom: 15px; width: calc(100% / 3 - 10%);}
-
-.user-name .user-data .info { display: block; font-weight: 500; margin-bottom: 8px;}
-
-.user-name .user-data input { height: 35px; width: 100%; outline: none; border-radius: 5px; border: 1px solid lightgray; color: lightgrey; background-color: black; padding-left: 15px;
-font-size: 16px;}
-
+.maincontainer{margin: 20px 50px;}
+.maincontainer .inputs { display: flex; flex-wrap: wrap; gap: 10px;}
+.inputs .namecont  { margin-bottom: 15px; width: calc(100% / 3 - 10%);}
+.inputs .professioncont{ margin-bottom: 15px; width: calc(100% / 3 - 10%);}
+.inputs .agecont{ margin-bottom: 15px; width: calc(100% / 3 - 10%);}
+.inputs .namecont input { height: 35px; width: 100%; outline: none; border-radius: 5px; border: 1px solid lightgray; color: lightgrey; background-color: black; padding-left: 15px;
+    font-size: 16px;}
+.inputs .professioncont input { height: 35px; width: 100%; outline: none; border-radius: 5px; border: 1px solid lightgray; color: lightgrey; background-color: black; padding-left: 15px;
+        font-size: 16px;}
+.inputs .agecont input { height: 35px; width: 100%; outline: none; border-radius: 5px; border: 1px solid lightgray; color: lightgrey; background-color: black; padding-left: 15px;
+            font-size: 16px;}
 button { font-weight: bold; height: 35px; width: 100px; margin: 40px 40px 40px 0px; margin-top: 30px; cursor: pointer;}
-
-.error { color: red; display: none; margin-bottom: 10px;}
-
-.success { color: green; display: none; margin-bottom: 10px;}
-
-#added-employees { color: rgb(102, 100, 96);}
+.emp-li-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 15px;
+    padding: 10px 0px;
+}
+.emp-li-container > p {color:gray;}
+.emp-card{display: flex; justify-content: flex-start; align-items: center; column-gap: 20px; width: fit-content;}
+.details{border: 1px solid white; padding: 10px 5px; display: flex; justify-content: space-between; align-items: center; column-gap: 25px; border-radius: 6px;}
+#del-user-btn{padding: 6px 20px; border-radius: 20px; border: none; cursor: pointer;}
