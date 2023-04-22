@@ -5,19 +5,7 @@ var ageInput = document.getElementById("age");
 nameInput.addEventListener("change", function (event) {
   console.log("event", event);
 });
-let obj =
-      {
-        id : count++,
-        name : name,
-        profession: profession,
-        age : age,
-      }
-      employees.push(obj);
 
-      message.innerText = "Success : Employee Added !";
-      message.style.color = "green";
-      message.style.fontSize = "20px";
-      message.style.marginBottom = "15px";
 
 var button = document.getElementById("adduser");
 
